@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    background-color:black;
+}
+
+.header{
+    background-color:white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    padding: 10px 10%;
+}
+
+.header .logo{
+    cursor: pointer;
+}
+.header .logo img{
+    height: 70px;
+    width: auto;
+    transition: all 0.3s;
+}
+
+.header .logo img:hover{
+    transform: scale(1.2);
+}
+
+.header .elementos{
+    list-style: none;
+}
+
+.header .elementos li{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.header .elementos li:hover{
+    transform: scale(1.1);
+}
+
+.header .elementos a{
+    font-size: 700;
+    color: #000;
+    text-decoration: none;
+
+}
+
+.header .elementos li a:hover{
+    color:dimgray;
+}
+
+.product{
+    background-color: white;
+    display: block;
+    text-align: center;
+}
+
+.product h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;    
+    font-size: 300%;
+}
+
+.product img{
+    height: 400px;
+    width: 500px;
+    transition: 1.3s;
+}
+
+.product img:hover{
+    height: 450px;
+    width: 550px;
+    transition: 1.3s;
+}
+
+.product .destacado{
+    display:inline-block;
+}
+
+.product .destacado .texto{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 150%;
+    padding: 0px 0px 100px 0px ;
+}
+
+.product .destacado .texto p{
+    font-size: 40px;
+    padding: 10px 0px 10px 0px ;
+}
+
+.product .destacado .texto .btn{
+    font-weight: 700;
+    color: #000;
+    padding: 5px 25px;
+    background-color: aliceblue;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+
+.Especial{
+    background-color: white;
+    display: block;
+    text-align: center;
+    padding: 20px;
+}
+
+.Especial h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;    
+    font-size: 300%;
+}
+
+.Especial .pruducto {
+    display:inline-block;
+}
+
+.Especial .pruducto .extra {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 100%;
+    padding: 0px 0px 10px 0px ;
+}
+
+.Especial .pruducto .extra p{
+    font-size: 25px;
+    padding: 10px 0px 10px 0px ;
+}
+
+.Especial .pruducto .extra button{
+    font-weight: 700;
+    color: #000;
+    padding: 5px 25px;
+    background-color: aliceblue;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.final{
+    text-align: center;
+    color: white;
+    height: 100px;
+    padding: 10px 10%;
+}
+
+.final h5{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 100%;
+}
