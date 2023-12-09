@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+
+<body>
+    <!--Ejercicio Formulario-->
+    <h1>Formulario de contacto</h1>
+    <form action="ruta del metodo que va a manejar la informacion" 
+        method="POST" enctype="multipart/form-data">
+        <label>Nombre:
+            <input type="text" name="nombre" id="nombre">
+        </label>
+        <br>
+        <br>
+        <label>Email:
+            <input type="email" name="email" id="email">
+        </label>
+        <br>
+        <br>
+        <label>Télefono:
+            <input type="number" name="telefono" id="email">
+        </label>
+        <br>
+        <br>
+        <label>Asunto:
+            <input type="text" name="email" id="asunto">
+        </label>
+        <br>
+        <br>
+        <label for=""> Motivo: 
+            <select name="Seleccionar" id="Motivo">
+                <option value="text">Seleccionar</option>
+            </select>
+        </label>
+        <br>
+        <br>
+        <label for="">Mensaje:
+        <textarea name="" id="mensaje" cols="20" rows="2"></textarea>
+        </label>
+        <br>
+        <br>
+        <label for="archivo">Archivo Adjunto:
+        <input type="file" id="archivo" name="archivo">
+        </label>
+        <br>
+        <br>
+        <button>Enviar</button>
+    </form>
+</body>
+
+</html>
